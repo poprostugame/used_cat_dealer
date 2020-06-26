@@ -8,6 +8,17 @@ public class Car {
     protected Integer mileage;
     public String color;
     public String segment;
-    protected Part[] parts = new Part[5];
+    protected Part[] parts;
+
+    public Car(Double value, String mark, String model, Integer mileage,
+               String color, String segment, Part[] parts){
+        this.value = value;
+        this.mark = mark;
+        this.model = model;
+        this.mileage = mileage;
+        this.color = color;
+        this.segment = segment;
+        this.parts = parts;
+    }
 
 }
