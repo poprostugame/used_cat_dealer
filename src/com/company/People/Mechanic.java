@@ -6,7 +6,7 @@ public class Mechanic extends Person{
     public Double repairCost;
 
     public Mechanic(String name, String surname,
-                    String money, Double chanceToRepair,
+                    Double money, Double chanceToRepair,
                     Double guaranty, Double repairCost) {
         super(name, surname, money);
         this.chanceToRepair = chanceToRepair;

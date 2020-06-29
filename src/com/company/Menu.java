@@ -1,7 +1,6 @@
 package com.company;
 
 import com.company.Vehicles.Car;
-import com.company.Vehicles.CarBase;
 
 import java.util.List;
 import java.util.Scanner;
