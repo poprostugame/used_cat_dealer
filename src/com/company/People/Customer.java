@@ -7,7 +7,7 @@ public class Customer extends Person{
     public Integer condition;
     // if condition 1-10damaged  11-30 suspension and breaks damaged  31-50 body damaged 51-100 goodcondition
 
-    public Customer(String name, String surname, Double money,
+    public Customer(String name, String surname, Integer money,
                     String favMark1, String favMark2, String favCarType,
                     Integer condition) {
         super(name, surname, money);
